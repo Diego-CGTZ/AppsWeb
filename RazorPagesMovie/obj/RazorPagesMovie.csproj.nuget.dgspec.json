@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
+    "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj": {}
   },
   "projects": {
-    "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj": {
+    "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectUniqueName": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "projectName": "RazorPagesMovie",
-        "projectPath": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj",
+        "projectPath": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\RazorPagesMovie.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\AppsWeb\\RazorPagesMovie\\obj\\",
+        "outputPath": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
