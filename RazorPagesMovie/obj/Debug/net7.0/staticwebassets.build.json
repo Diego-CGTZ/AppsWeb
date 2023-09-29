@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CdjKajGNeJKykTToLInSRZzN4FySUieK6mVCk460Wto=",
+  "Hash": "IxCnvekaMYAdQ6Z+jZ1E6OvnIJiS8jJlaF802UrKgE4=",
   "Source": "RazorPagesMovie",
   "BasePath": "_content/RazorPagesMovie",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorPagesMovie.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\wwwroot\\css\\IndexStyles.css",
+      "SourceId": "RazorPagesMovie",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\wwwroot\\",
+      "BasePath": "_content/RazorPagesMovie",
+      "RelativePath": "css/IndexStyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\IndexStyles.css"
     },
     {
       "Identity": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\wwwroot\\css\\site.css",

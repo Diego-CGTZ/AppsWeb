@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RazorPagesMovie.bundle.scp.css"
     },
     {
+      "Id": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\wwwroot\\css\\IndexStyles.css",
+      "PackagePath": "staticwebassets\\css\\IndexStyles.css"
+    },
+    {
       "Id": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\RazorPagesMovie\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

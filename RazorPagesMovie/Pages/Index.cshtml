@@ -1,10 +1,128 @@
-﻿@page
+﻿@* @page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1 class="display-4">Welcome</h1>
+<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+@page
+@model IndexModel
+<link rel="stylesheet" href="~/wwwroot/css/IndexStyles.css">
+@{
+    ViewData["Title"] = "Home page";
+}
+<img src="https://culture-lab.es/wp-content/uploads/2020/08/asp_net.png" alt="Asp.net" />
+
+<div class="row mb-auto">
+
+    <div class="col-md-4">
+
+        <div class="row no-gutters border mb-4 bg-secondary">
+
+            <div class="col p-4 mb-4 ">
+
+                <p class="card-text hola text-info">
+
+                    Mi sitio de Películas esta creado con Entity Framework Core en
+
+                    ASP.NET Core utilizando Razor Pages web app.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <iframe width="100" height="600" src="http://www.youtube.com/embed/fxCEcPxUbYA" frameborder="0"
+        allowfullscreen></iframe>
+
+    <iframe width="100" height="600" src="https://www.youtube.com/embed/mCdA4bJAGGk?si=Q8Mg9BzTR1dTwTXl"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+    <div class="col-md-4">
+
+        <div class="row no-gutters border mb-4 bg-secondary ">
+
+            <div class="col p-4 d-flex flex-column position-static">
+
+                <p class="card-text mb-auto text-danger">
+
+                    You can build the application by following the steps in a series of tutorials.
+
+                </p>
+
+                <p>
+
+                    @* <a href="https://docs.microsoft.com/aspnet/core/data/ef-rp/intro" class="stretched-link">See the
+                    tutorial</a>
+
+                    *@ </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="row no-gutters border mb-4 bg-secondary">
+
+            <div class="col p-4 d-flex flex-column">
+
+                <p class="card-text mb-auto text-danger">
+                    You can download the completed project from GitHub.
+                </p>
+                <p>
+
+                    @* <a href="https://github.com/dotnet/AspNetCore.Docs/tree/main/aspnetcore/data/ef-rp/intro/samples"
+                    class="stretched-link">See project source code</a>
+
+                    *@ </p>
+
+                <div>
+                    <img src="data:image/jpeg;base64,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"
+                        alt="rata">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="row no-gutters border mb-4 bg-secondary">
+
+            <div class="col p-4 d-flex flex-column">
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="mail">Correo electrónico:</label>
+                            <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                            <label for="msg">Mensaje:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                        </li>
+
+                        ...
+                    </ul>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
 </div>
