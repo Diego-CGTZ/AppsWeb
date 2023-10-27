@@ -9900,19 +9900,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jpnat\\.nuget\\packages\\": {}
+    "C:\\Users\\diego\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jpnat\\OneDrive\\Documentos\\3er semestre\\Apps Web\\3er-parcial\\ContosoUniversity\\ContosoUniversity.csproj",
+      "projectUniqueName": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\ContosoUniversity\\ContosoUniversity.csproj",
       "projectName": "ContosoUniversity",
-      "projectPath": "C:\\Users\\jpnat\\OneDrive\\Documentos\\3er semestre\\Apps Web\\3er-parcial\\ContosoUniversity\\ContosoUniversity.csproj",
-      "packagesPath": "C:\\Users\\jpnat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jpnat\\OneDrive\\Documentos\\3er semestre\\Apps Web\\3er-parcial\\ContosoUniversity\\obj\\",
+      "projectPath": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\ContosoUniversity\\ContosoUniversity.csproj",
+      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
+      "outputPath": "D:\\1-Diego\\1-escuela\\1- uni\\Semestre 3\\Parcial 1\\PPDAW- Bibiana Thonamzin Bárcenas Martínez\\Apps_Web\\AppsWeb\\ContosoUniversity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jpnat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
